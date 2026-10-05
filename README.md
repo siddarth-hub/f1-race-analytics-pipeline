@@ -2,39 +2,28 @@
 
 An automated pipeline that pulls Formula 1 timing data from the FastF1 API, stores it in PostgreSQL, and serves it to an interactive Power BI dashboard. It covers lap pace, driver consistency, tyre strategy and pit stops across six races: the Abu Dhabi and Miami Grands Prix, 2023 to 2025.
 
-
 *Unofficial fan project, not affiliated with or endorsed by Formula 1. Formula 1 and F1 are trademarks of their respective owners.*
-
-![Architecture diagram](images/architecture.png)
 
 **Pipeline:** FastF1 API > Python analysis layer (pandas + OOP classes) > PostgreSQL > Power BI
 
 ## Dashboard
 
+Screenshots of each page are in the [`images/`](images/) folder.
+
 ### Home
 Landing page with navigation to the analysis pages.
-
-<img src="images/Home_Page_F1.png" alt="Home page of the Power BI dashboard" width="900">
 
 ### Overview
 Race-level KPIs (winner, fastest lap, average lap time, top speed, laps, drivers, teams) and average lap time by lap number.
 
-<img src="images/Overview_F1.png" alt="Overview page of the Power BI dashboard" width="900">
-
 ### Driver Analysis
 Fastest lap and lap-time consistency by driver, with a driver data table and lap-by-lap trends.
-
-<img src="images/Driver_Analysis_F1.png" alt="Driver Analysis page of the Power BI dashboard" width="900">
 
 ### Tyre & Stint Analysis
 Lap time by tyre age and compound, laps driven per compound for each driver, pit stops by lap, and a compound summary.
 
-<img src="images/Tyre___Stint_Analysis_F1.png" alt="Tyre and Stint Analysis page of the Power BI dashboard" width="900">
-
 ### Team Analysis
 Average lap time, speed and race winner by team.
-
-<img src="images/Team_Analysis_F1.png" alt="Team Analysis page of the Power BI dashboard" width="900">
 
 ## Key findings
 
