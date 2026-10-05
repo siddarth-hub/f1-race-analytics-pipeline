@@ -8,7 +8,7 @@ An automated pipeline that pulls Formula 1 timing data from the FastF1 API, stor
 
 ## Dashboard
 
-Screenshots of each page are in the [`images/`](images/) folder.
+Screenshots of each page are attached as files
 
 ### Home
 Landing page with navigation to the analysis pages.
